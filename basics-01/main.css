@@ -6,11 +6,16 @@ body {
     background-color: #ff1b68;
 }
 
-h1 {
+#product-overview h1 {
     color: white;
     font-family: 'Roboto', sans-serif;
 }
 
 .section-title {
     color: #2ddf5c;
+    font-family: inherit;
+}
+
+h1 {
+    font-family: sans-serif;
 }
