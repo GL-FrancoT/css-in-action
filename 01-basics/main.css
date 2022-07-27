@@ -5,6 +5,8 @@ body {
 
 #product-overview {
     background-color: #ff1b68;
+    width: 90%;
+    height: 528px;
     padding: 20px;
     /* border-style: solid;
     border-color: black;
