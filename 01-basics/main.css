@@ -1,30 +1,31 @@
 body {
-    font-family: 'Montserrat', sans-serif;
-    margin: 0;
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
 }
 
 #product-overview {
-    background-color: #ff1b68;
-    width: 90%;
-    height: 528px;
-    padding: 20px;
-    /* border-style: solid;
-    border-color: black;
-    border-width: 5px; */
-    border: 5px solid black;
-    margin: 20px;
+  background-color: #ff1b68;
+  width: 90%;
+  height: 528px;
+  padding: 20px;
 }
 
 #product-overview h1 {
-    color: white;
-    font-family: 'Roboto', sans-serif;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+.main-header {
+  width: 100%;
+  background-color: #2ddf5c;
+  padding: 8px 16px;
 }
 
 .section-title {
-    color: #2ddf5c;
-    font-family: inherit;
+  color: #2ddf5c;
+  font-family: inherit;
 }
 
 h1 {
-    font-family: sans-serif;
+  font-family: sans-serif;
 }
