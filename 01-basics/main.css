@@ -29,3 +29,7 @@ body {
 h1 {
   font-family: sans-serif;
 }
+
+.main-nav__item {
+  display: inline-block;
+}
