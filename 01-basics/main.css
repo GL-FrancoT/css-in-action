@@ -15,12 +15,6 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-.main-header {
-  width: 100%;
-  background-color: #2ddf5c;
-  padding: 8px 16px;
-}
-
 .section-title {
   color: #2ddf5c;
   font-family: inherit;
@@ -28,6 +22,28 @@ body {
 
 h1 {
   font-family: sans-serif;
+}
+
+.main-header {
+  width: 100%;
+  background-color: #2ddf5c;
+  padding: 8px 16px;
+}
+
+.main-header > div {
+  display: inline-block;
+}
+
+.main-nav {
+  display: inline-block;
+  text-align: right;
+  width: calc(100% - 49px);
+}
+
+.main-nav__items {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 .main-nav__item {
