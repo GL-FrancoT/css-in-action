@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Montserrat", sans-serif;
   margin: 0;
@@ -10,19 +14,18 @@ body {
   padding: 10px;
 }
 
-#product-overview h1 {
-  color: white;
-  font-family: "Roboto", sans-serif;
-}
-
 .section-title {
   color: #2ddf5c;
-  font-family: inherit;
 }
 
-h1 {
-  font-family: sans-serif;
+#product-overview h1 {
+  color: white;
+  font-family: "Anton", sans-serif;
 }
+
+/* h1 {
+  font-family: sans-serif;
+} */
 
 .main-header {
   width: 100%;
@@ -61,6 +64,6 @@ h1 {
 }
 
 .main-nav__item a {
-  color: #0e4f1f;
   text-decoration: none;
+  color: #0e4f1f;
 }
